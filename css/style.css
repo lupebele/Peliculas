@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+header .nav{
+    display: flex;
+    height: 100%;
+    background: black;
+    justify-content: center;   
+}
+header .nav a {   
+    margin: auto;
+    color: white;
+    border: 2px solid black;
+    transition: border 0.2s ease;
+}
+header .nav a:hover {
+    border-left-style: initial;
+    cursor: pointer;
+    color: blanchedalmond;
+}
+div .card-group {
+    margin: 2px;
+}
